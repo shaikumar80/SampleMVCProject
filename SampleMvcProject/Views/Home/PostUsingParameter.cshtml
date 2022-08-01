@@ -1,0 +1,26 @@
+﻿@model SampleMvcProject.Models.RegisterEmp
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PostUsingParameter</title>
+</head>
+<body>
+    <div class="container">
+        
+            @{
+
+        RegisterEmp registerEmp = new RegisterEmp();
+            }
+        
+        <ul class="list-group list-group-flush">
+           @Html.ListBoxFor(fname)
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </div>
+</body>
+</html>
